@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+			charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<title>我的续保 --</title>
+	<!-- Bootstrap -->	
+	<link href="/css/front/bootstrap.min.css" rel="stylesheet">		
+	<link href="/css/front/comm.css" rel="stylesheet">
+	<link href="/css/insure.min.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	 <style>
+    .text-size {
+        font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+	<main>
+	<header class="titleBar">
+		<a href="#" title="返回"></a>
+		<h1>我的续保</h1>
+	</header>
+<div class="content">
+	<div class="container">
+		<div class="row" style="margin-top:2%">
+			<div class="col-lg-12 content">
+		  		<font class="text-size" style="color:#FC8716">
+		  			续保到期件提醒
+		  		</font>
+		  		<img src="/images/renew/icon-01.png" width="21px;" height="21px;"/>
+	  	</div>
+  	</div>	
+
+	<div class="row">
+		<div class="col-lg-12 content">
+				<img src="/images/renew/icon-03.png" />
+		</div>
+	</div>
+
+	<div class="row">
+		{! ------1----- !}
+		<div class="col-lg-12 content">
+  		<span class="text-size">
+  			客户姓名：方晓明 
+  		</span>
+  		<br>
+  		<span class="text-size">
+  			联系电话：
+  			<font style="color:#FC8716">
+  				12345678986
+  			</font>
+			</span>
+  		<span>
+  			<img src="/images/renew/icon-02.png" width="21px;" height="21px;" />
+  		</span>
+  	</div>
+		{! ------2----- !}
+		<div class="content" style="background:#FCE7D2;padding-top:2%;margin-top:2%">
+			<div class="col-lg-12 content" style="background:#FCE7D2;">
+	  		<span class="text-size">
+	  			客户意向：
+	  			<font style="color:#FC8716">
+	  				寿险/车险/意外险
+	  			</font>
+	  		</span>
+	  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  			最近联系时间：2014-12-19
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  			产品名称：
+  			<font style="color:#FC8716">
+  				保你一生
+  			</font>
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  				保险止期：2014/01/01-2014/12/31
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  </div>	
+</div>
+<div class="row" style="padding-top:2%;margin-top:2%">
+		{! ------1----- !}
+		<div class="col-lg-12 content">
+  		<span class="text-size">
+  			客户姓名：方晓明 
+  		</span>
+  		<br>
+  		<span class="text-size">
+  			联系电话：
+  			<font style="color:#FC8716">
+  				12345678986
+  			</font>
+			</span>
+  		<span>
+  			<img src="/images/renew/icon-02.png" width="21px;" height="21px;" />
+  		</span>
+  	</div>
+		{! ------2----- !}
+		<div class="content" style="background:#FCE7D2;padding-top:2%;margin-top:2%">
+			<div class="col-lg-12 content" style="background:#FCE7D2;">
+	  		<span class="text-size">
+	  			客户意向：
+	  			<font style="color:#FC8716">
+	  				寿险/车险/意外险
+	  			</font>
+	  		</span>
+	  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  			最近联系时间：2014-12-19
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  			产品名称：
+  			<font style="color:#FC8716">
+  				平安“慧择—百万精英 ” 高额意外伤害保险
+  			</font>
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  	<div class="col-lg-12 content" style="background:#FCE7D2;">
+  		<span class="text-size">
+  				保险止期：2014/01/01-2014/12/31
+  		</span>
+  	</div>
+  	<div class="col-lg-12" style="background:#FCE7D2;">
+  		<img src="/images/renew/icon-03.png"/>
+  	</div>
+  </div>	
+</div>
+<div class="row">
+		<div class="list_footer pull-right"><p>点击查看更多>>></p></div>
+</div>	
+	<br/>
+	<br/>
+</div>
+
+		<br/>
+		<footer class="dial">
+			<a href="tel:1xxxxxxxxx" title="拨打电话">
+				<span class="glyphicon glyphicon-earphone"></span>
+				拨打咨询
+			</a>
+		</footer>
+	</main>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function changeImage(obj){
+			var imgsrc = document.getElementById(obj.id).src;
+			var aa = imgsrc.substring(imgsrc.lastIndexOf("/")+1,imgsrc.length);
+			var urlsrc = "xin-DBDCDC.png";
+			if(aa == urlsrc){
+				document.getElementById(obj.id).src = "/images/product/xin-D9534F.png";
+			}else{
+				document.getElementById(obj.id).src = "/images/product/xin-DBDCDC.png"; 
+			}
+		}
+
+	</script>
+</body>
+</html>

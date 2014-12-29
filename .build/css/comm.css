@@ -1,0 +1,291 @@
+body, h1, h2, h3, h4, h5, h6, a, div, span, table {
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    text-shadow: 0 0 0 #fff;
+}
+
+body {
+    background-color: #DCDCDC
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.myColor {
+    height: 250px;
+}
+
+.my-top {
+    height: 55px;
+    line-height: 50px;
+}
+
+.my-top > div {
+    cursor: pointer
+}
+
+.my-title {
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.global-color-primary {
+    background-color: #428BCA;
+}
+
+.global-color-success {
+    background-color: #5CB85C;
+}
+
+.global-color-info {
+    background-color: #5BC0DE;
+}
+
+.global-color-warning {
+    background-color: #F0AD4E;
+}
+
+.global-color-danger {
+    background-color: #FC8716;
+}
+.global-color-gray {
+    background-color: #B4B4B5;
+}
+
+.global-color-purple {
+    background-color: #7879B9;
+}
+
+.global-fontGray {
+    color: #9C9E9E;
+}
+
+.global-fontdanger {
+    color: #666666
+}
+
+.global-index2em {
+    line-height: 30px;
+}
+
+.hr0 {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #C4C4C4;
+}
+
+.hr1 {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #555555;
+}
+
+.hr2 {
+    height: 3px;
+    border: none;
+    border-top: 3px double #66C6EF;
+}
+
+.hr3 {
+    height: 5px;
+    border: none;
+    border-top: 5px ridge green;
+}
+
+.hr4 {
+    height: 10px;
+    border: none;
+    border-top: 10px groove skyblue;
+}
+
+.hr5 {
+    height: 1px;
+    border: none;
+    border-top: 1px dashed #C4C4C4;
+    margin-top: 10px;
+}
+
+.my-pro {
+    border-bottom: 1px dotted #b9def0;
+    padding: 5px;
+}
+
+.my-pro-b {
+    color: #808080;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.my-heartIcon {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.my-pro-bar .ui-link, .ui-link:visited, .ui-link:hover {
+    color: #ffffff
+}
+
+.my-pro-bar .ui-link:visited {
+    color: #ffffff
+}
+
+.panel-title {
+    text-align: center;
+    color: #66C6EF;
+    cursor: pointer
+}
+
+.collapse-dd p {
+    color: #888;
+    margin-left: 5.5em;
+    text-indent: -4em;
+    /*text-indent: 2em;*/
+    /*padding-left: 0px;*/
+}
+
+.collapse-ddd p {
+    color: #888;
+    margin-left: 1.5em;
+    text-indent: 0;
+    padding-bottom: 0;
+    /*text-indent: 2em;*/
+    /*padding-left: 0px;*/
+}
+
+._4 p {
+    margin-left: 6.5em;
+    text-indent: -5em;
+}
+
+.collapse-dd2 p {
+    padding-left: 20px;
+}
+
+.my-proTrial-contral {
+    cursor: pointer;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.rangeslider, .ui-slider {
+    height: 20px;
+    padding: 0;
+}
+
+div.ui-slider {
+    margin: 0;
+}
+
+.liststyle-squ > div {
+    display: list-item;
+    list-style-type: square;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+ins {
+    color: #000000
+}
+
+.planTable {
+    border: 2px solid #cccccc
+}
+
+#overlay {
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 99999;
+    display: none;
+}
+
+.msglay {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100000;
+    top: 10px;
+    display: none
+}
+
+#share {
+    background: url(../images/share.png) no-repeat;
+    background-size: 100%;
+    width: 322px;
+    height: 161px;
+}
+
+.form-group dt {
+    padding: 0;
+}
+
+dt {
+    color: #585757;
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+input.ui-input-text.ui-slider-input {
+    width: 55px;
+}
+
+/*修改css*/
+.col-xs-7 {
+    margin-top: -6px;
+}
+
+.anli-table {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/*.anli-table tr:nth-child(odd) {
+	background: #dedede;
+}
+.anli-table td:nth-child(even) {
+	color: #333;
+}*/
+#canvas {
+    width: 100%;
+}
+
+.row1 {
+    width: 100%;
+}
+
+.row1 span {
+    width: 50%;
+    display: table-row;
+    list-style: none;
+    line-height: 30px;
+}
+
+.collapse-dd input {
+    margin-left: 22px;
+}
+
+.collapse-dd2 p b {
+    color: #66C6EF;
+}
+
+.conpany-sm {
+    border: 1px #dedede solid;
+    margin-top: 10px;
+    -moz-border-radius: 8px; /* Gecko browsers */
+    -webkit-border-radius: 8px; /* Webkit browsers */
+    border-radius: 8px;
+}
+

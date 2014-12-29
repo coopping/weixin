@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+<head>
+    <title>幸福人寿</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+          charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="/css/comm.css">
+    <link rel="stylesheet" href="/css/zheng.css">
+    <script src="/js/jquery-1.11.1.js"></script>
+    <script src="/js/entry.js"></script>
+    <script src="/js/jquery.mobile-1.3.2.min.js"></script>
+    <link rel="stylesheet" href="/css/comm.droplist.css"></head>
+    <link rel="stylesheet" href="/css/insure.min.css">
+
+<body class="ui-mobile-viewport ui-overlay-c">
+    <main>
+        <header class="titleBar">
+            <a href="#" title="返回"></a>
+            <h1>产品详情</h1>
+        </header>
+        <div class="container">
+
+            <hr class="hr0">
+            <div class="row" style="padding-bottom: 15px; background-color: #ffffff;">
+                <div class="col-lg-12 col-md-12 col-sm-12 my-proPic">
+                    <img class="img img-responsive" style="margin-top: 10px;" src="/images/product/pro5.jpg"></div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="ui-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">产品介绍</a>
+                                </h4>
+                            </div>
+                            <div style="display: none;" id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <dl>
+                                        <dt>
+                                            <img src="/images/product/check0.png">计划构成</dt>
+                                        <dd class="collapse-dd">
+                                            <p>《幸福祥鸿两全保险（分红型）》（主险）</p>
+
+                                            <p>《幸福附加祥鸿提前给付重大疾病保险》（附加险）</p>
+                                        </dd>
+                                        <dt>
+                                            <img src="/images/product/check0.png">产品特色</dt>
+                                        <dd class="collapse-dd">
+                                            <p>
+                                                重疾保障 &nbsp;&nbsp;&nbsp;   安全护航
+                                                <br/>
+                                            </p>
+                                            <p style="margin-top:-1em; ">身故给付   &nbsp;&nbsp;&nbsp;     彰显保障</p>
+
+                                            <p>享受分红  &nbsp;&nbsp;&nbsp;     额外惊喜</p>
+                                            <p style="margin-top:-1em; ">保单贷款      &nbsp;&nbsp;&nbsp;  资金灵活</p>
+
+                                            <p>满期回报   &nbsp;&nbsp;&nbsp;     稳健增值</p>
+                                            <p style="margin-top:-1em; ">领取方式   &nbsp;&nbsp;&nbsp;     灵活多样</p>
+                                        </dd>
+                                        <dt>
+                                            <img src="/images/product/check0.png">投保规则</dt>
+                                        <dd class="collapse-dd _4">
+                                            <p>投保年龄： 男性出生满30天至50周岁，女性出生满30天至55周岁</p>
+
+                                            <p>保险期间：40年、50年、至被保险人满88周岁</p>
+                                            <p>交费期间：10年、15年、20年</p>
+                                            <p>保额要求：投保本险种每份投保单的最低基本保险金额为10000元，10000元以上部分保额应为1000元的整数倍</p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="ui-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">保险责任</a>
+                                </h4>
+                            </div>
+                            <div style="display: none;" id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <dl>
+                                        <dt>
+                                            <img src="/images/product/check0.png">在合同有效期内，我们承担以下责任:</dt>
+                                        <dd class="collapse-ddd">
+                                            <p>
+                                                1、身故保险金
+                                                <br/>
+                                                若被保险人因遭受意外事故身故，或合同生效180天后因疾病身故，按主险合同约定的基本保险金额给付身故保险金，主险合同效力终止。
+                                            </p>
+
+                                            <p>
+                                                2、满期保险金
+                                                <br/>
+                                                若被保险人生存至本主险合同期满，按照主险合同约定的基本保险金额给付满期保险金，主险合同效力终止。
+                                            </p>
+
+                                            <p>
+                                                3、重大疾病保险金
+                                                <br/>
+                                                自附加险合同生效起180天后，被保险人首次罹患附加险合同所定义的重大疾病（共40种），按附加险合同约定的基本保险金额给付重大疾病保险金，附加险合同效力终止。
+                                                <br/>
+                                                <p style="margin-top:10px;text-indent:30px;">
+                                                    重大疾病（共40种）：恶性肿瘤、急性心肌梗塞、脑中风后遗症、重大器官移植术或造血干细胞移植术、冠状动脉搭桥术（或称冠状动脉旁路移植术）、
+           终末期肾病（或称慢性肾功能衰竭尿毒症期）、多个肢体缺失、急性或亚急性重症肝炎、良性脑肿瘤、慢性肝功能衰竭失代偿期、脑炎后遗症或脑膜炎后遗症、深度昏迷、双耳失聪、双目失明、瘫痪、心脏瓣膜手术、严重阿尔茨海默病、严重脑损伤、
+           严重帕金森病、严重…度烧伤、严重原发性肺动脉高压、严重运动神经元病、语言能力丧失、重型再生障碍性贫血、主动脉手术、严重多发性硬化、严重慢性呼吸功能衰竭、严重冠心病、脊髓灰质炎、肌营养不良症、经输血导致的人类免疫缺陷病毒(HIV)感染、
+           慢性复发性胰腺炎、严重心肌病、植物人状态、全身性重症肌无力、坏死性筋膜炎、严重克隆病、严重类风湿性关节炎、溶血性链球菌引起的坏疽、系统性红斑狼疮
+                                                </p>
+                                            </p>
+
+                                            <p>
+                                                4、男/女性重大疾病特别保险金
+                                                <br/>
+                                                自附加险合同生效起180天后，被保险人首次罹患附加险合同所定义的男/女性重大疾病（共4种），除给付重大疾病保险金外，还将按照附加险合同约定的基本保险金额的50%额外给付男/女性重大疾病特别保险金，附加险合同效力终止。
+                                                <br/>
+                                                <p style="margin-top:10px;text-indent:30px;">男／女性重大疾病（共4种）：睾丸癌、阴茎癌、前列腺癌、系统性红斑狼疮</p>
+                                            </p>
+                                            <p>
+                                                5、早期治疗保险金
+                                                <br/>
+                                                自附加险合同生效起180天后，被保险人首次罹患附加险合同所定义的早期治疗保险金疾病（共6种），按被保险人确诊时本附加险合同约定的基本保险金额的20%给付早期治疗保险金，本项责任终止。
+                                                <br/>
+                                                给付早期治疗保险金后，主险合同的基本保险金额并不随之减少相应给付额度。
+                                                <br/>
+                                                在保险期间内，若我们按照附加险合同的约定给付重大疾病保险金的，主险合同效力终止。
+                                                <br/>
+                                                如果我们按照《幸福附加祥鸿提前给付重大疾病保险条款》约定的基本保险金额给付过重大疾病保险金的，主险合同效力终止，我们将不再按主险合同约定的基本保险金额给付身故保险金或满期保险金。
+                                                <br/>
+                                                <p style="margin-top:10px;text-indent:30px;">
+                                                    早期治疗保险金疾病（共6种）：恶性肿瘤、急性心肌梗塞、冠状动脉粥样硬化性心脏病的介入性治疗、脑中风后遗症、心脏瓣膜手术、良性脑肿瘤
+                                                </p>
+                                            </p>
+                                            <p>
+                                                注：具体保险责任及未尽事宜请以合同和条款为准。公司在约定情形下不承担保险责任，请关注保险条款中的责任免除部分。自您签收本合同次日起可享有10天的犹豫期，在犹豫期后退保会产生一定的费用损失。
+                                            </p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="ui-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">案例展示</a>
+                                </h4>
+                            </div>
+                            <div style="display: none;" id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <dt>
+                                        <img src="/images/product/check0.png">投保案例</dt>
+                                    <dd class="collapse-ddd">
+                                        <p style="text-indent: 2em;">
+                                            35周岁的李女士，投保《幸福祥鸿健康养老保障计划》，保至88周岁，20年交费，基本保险金额5万元，年交保费1998.5元，共交保费39970元。
+                                        </p>
+
+                                        <p style="text-indent: 2em;">李女士在保险期间内可享有最高50000元的身故保障；</p>
+
+                                        <p style="text-indent: 2em;">
+                                            若李女士不幸需要进行心脏瓣膜手术，我们给付早期治疗保险金10000元；若李女士又不幸罹患系统性红斑狼疮，可获赔50000元重大疾病保险金，另给付25000元女性重大疾病特别保险金供李女士治疗使用，在此时主附险合同效力同时终止。
+                                        </p>
+
+                                        <p style="text-indent: 2em;">若李女士一生平安，在保险期满时可领取满期保险金+累积红利。</p>
+                                        <table width="100%" border="1" cellspacing="0" cellpadding="0" bordercolor="#b2b2b2">
+                                            <tr>
+                                                <td colspan="1" width="25%">早期治疗保障</td>
+                                                <td width="20%" class="altd">10000元</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" width="25%">男／女性重大疾病特别保障</td>
+                                                <td width="20%" class="altd">25000元</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" width="25%">重大疾病保障</td>
+                                                <td width="20%" class="altd">50000元</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" width="25%">人身保障</td>
+                                                <td width="20%" class="altd">50000元</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="1" width="25%">满期金</td>
+                                                <td width="20%" class="altd">50000元</td>
+                                            </tr>
+                                        </table>
+                                    </dd>
+                                    <dt>
+                                        <img src="/images/product/check0.png">风险提示：</dt>
+                                    <dd class="collapse-ddd">
+                                        <p>本保障计划中《幸福祥鸿两全保险（分红型）》产品为分红保险，其红利分配是不确定的。</p>
+
+                                    </dd>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading my-turnNext">
+                                <h3 class="panel-title">
+                                    <a class="ui-link" data-toggle="collapse" data-parent="#accordion">产品试算</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="dial">
+            <a href="tel:1xxxxxxxxx" title="拨打电话">
+                <span class="glyphicon glyphicon-earphone"></span>
+                拨打咨询
+            </a>
+        </footer>   
+    </main> 
+</body>
+</html>

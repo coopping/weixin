@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	margin-left: 8px;
+	height: auto;
+}
+html {
+	font-size: 125%;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-family: "微软雅黑";
+	font-size: .7em;
+	color: #888;
+	background: #e4e6e5;
+}
+/*logo*/
+.logo {
+	background: #EEEEEF;
+}
+/*热销产品*/
+.hot {
+	width: 50%;
+	background: #f6b466;
+	float: left;
+}
+/*保险产品*/
+.project {
+	width: 50%;
+	background: #66C28F;
+	float: right;
+}
+/*公司简介*/
+.jianjie {
+	width: 90%;
+	margin: 5px 5%;
+}
+.jianjie b {
+	color: #585757;
+}
+.jianjie p {
+	text-indent: 2em;
+	line-height: 25px;
+}
+.content-jj {
+	margin-bottom: 50px;
+}
+/*帮助*/
+.help {
+	width: 50%;
+	background: #7779B8;
+	float: left;
+}
+/*通知*/
+.notice {
+	width: 50%;
+	background: #F06671;
+	float: right;
+}
+/*灰底*/
+#gg {
+	position: fixed;
+	margin-top:8px;
+	bottom: 0;
+	width: 100%;
+	z-index: 9999;
+	_bottom: auto;
+	_width: 100%;
+	_position: absolute;
+_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight- (parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+}
+.footer{
+	height: 43px;
+	line-height: 43px;
+	background: #717071;
+}
+.footer a img {
+	display: block;
+	margin: 0 auto;
+	padding: 7px 0;
+}
+/*-----------  个险产品渠道  -----------*/
+.global-color-danger {
+	background-color: #C4555E;
+}
+.my-top {
+	height: 50px;
+	line-height: 50px;
+}
+.my-top>div {
+	cursor: pointer
+}
+.my-title {
+	color: #ffffff;
+	line-height: 50px;
+	font-size: 24px;
+}
+.line {
+	width: 96%;
+	margin: 0 0%;
+}
+.content {
+	width: 96%;
+	margin: 0 2%;
+	background: #fff;
+}
+.list {
+	padding: 3% 0;
+	margin: 0 3%;
+	border-bottom: 1px #898989 dashed;
+}
+.list_footer {
+	padding: 3% 0;
+	margin: 0 3%;
+}
+.list p {
+	margin-top: 5px;
+	line-height: 21px;
+}
+.list h3 {
+	font-size: 1.25em;
+	color: #595757;
+	font-weight: bold;
+}
+.button {
+	margin-top: 5px;
+}
+.button a {
+	display:inline-block;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 1.12em;
+}
+.btn-danger-gx {
+	color: #fff;
+	background:url(../images/product/detail.png) no-repeat 0 0;
+}
+.btn-danger-gx:hover, .btn-danger-gx:focus, .btn-danger-gx:active, .btn-danger-gx.active, .open .dropdown-toggle.btn-danger-gx {
+	color: #fff;
+	background-color: #C4555E;
+}
+
+/*-----------  热销产品渠道  -----------*/
+.global-color-danger-hot {
+	background-color: #f6b466;
+}
+
+
+/*-----------  帮助渠道  -----------*/
+.global-color-danger-help {
+	background-color: #7779B8;
+}
+
+/*-----------  通知渠道  -----------*/
+.global-color-danger-notice {
+	background-color: #F06671;
+}
+
+/*-----------  银保产品渠道  -----------*/
+.global-color-danger1 {
+	background-color: #66C6EF;
+}
+.btn-danger-yb {
+	color: #fff;
+	background-color: #66C6EF;
+}
+.btn-danger-yb:hover, .btn-danger-yb:focus, .btn-danger-yb:active, .btn-danger-yb.active, .open .dropdown-toggle.btn-danger-yb {
+	color: #fff;
+	background-color: #66C6EF;
+}
+
+/*-----------  中介个险产品渠道  -----------*/
+.global-color-danger2 {
+	background-color: #66C28F;
+}
+.btn-danger-zj {
+	color: #fff;
+	background-color: #66C28F;
+}
+.btn-danger-zj:hover, .btn-danger-zj:focus, .btn-danger-zj:active, .btn-danger-zj.active, .open .dropdown-toggle.btn-danger-zj {
+	color: #fff;
+	background-color: #66C28F;
+}
+
+
+/*---------  帮助中心   ----------*/
+.section{width: 96%;
+	margin: .5em 2% 1em;}
+.help-title{font-size: 1.2em;font-weight:bold;padding:.3em 0;}
+
+.help-title-1{font-size: 1.4em;font-weight:bold;padding:.3em 0;}
+
+.help-01 {
+	line-height: 23px;
+}
+.help-01 dl {
+	margin:5px 0;
+}
+.help-01 dl dt {
+	font-weight: bold;
+}
+.help-01 dl dd p {
+	text-indent: 2em;
+}
+.help-01 dl dt.red {
+	color: #fe0100;
+	font-size: 1.2em
+}
+
+/*------------------------*/
+.list-cp{ background:#fff;}
+.rx{display:block;height:100%;width:100%;background:url(../images/rx-icon.png) no-repeat 0 0;}
+.rx:hover{ background:url(../images/rx-icon-ahover.png) no-repeat 0 0;}

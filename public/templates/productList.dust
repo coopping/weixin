@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+			charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<title>产品展示 --</title>
+	<!-- Bootstrap -->	
+	<link href="/css/front/bootstrap.min.css" rel="stylesheet">		
+	<link href="/css/front/comm.css" rel="stylesheet">
+	<link href="/css/insure.min.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		input {
+		    background: #fff; border: 1px solid #000;
+		    height:35px;
+		    padding: 3px;
+		    vertical-align:middle;
+		    line-height:30px;
+		    border-radius: 3px;
+		    -webkit-border-radius: 3px;
+		    -moz-border-radius: 3px;
+		}
+	</style>
+
+</head>
+<body>
+	<main>
+		<header class="titleBar">
+			<a href="#" title="返回"></a>
+			<h1>产品展示</h1>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 line">
+					<img src="/images/line.png"></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 content">
+					<div class="list">
+						<a name="firstAnchor1">
+							<h3>幸福祥鸿健康养老保障计划</h3>
+						</a>
+						<dd class="collapse-dd" style="text-align: left;">
+							<p>重疾保障、安全护航、身故给付、彰显保障、享受分红、额外惊喜、保单贷款、资金灵活、满期回报、稳健增值、领取方式、灵活多样</p>
+						</dd>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag1" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<a href="/productDetail"><img src="/images/product/detail.png"/></a>
+						</div>
+					</div>
+					<div class="list">
+						<a name="firstAnchor2">
+							<h3>幸福祥利两全保险（分红型）</h3>
+						</a>
+						<p>享受分红、额外惊喜、保费返还、安心保障、保单贷款、资金灵活、领取方式、灵活多样</p>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag2" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<img src="/images/product/detail.png"/>
+						</div>
+					</div>
+					<div class="list">
+						<a name="firstAnchor3">
+							<h3>幸福双喜盈门两全保险（分红型）</h3>
+						</a>
+						<p>
+							周期给付、稳定回报、保单分红、额外惊喜、减额交清、免除压力、保费豁免、舒缓困境、保单贷款、舒缓困境、保单贷款、调剂资金、领取方式、灵活多样
+						</p>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag3" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<img src="/images/product/detail.png"/>
+						</div>
+					</div>
+					<div class="list">
+						<a name="firstAnchor4">
+							<h3>幸福宏利人生两全保险（分红型）</h3>
+						</a>
+						<p>身故全残保障，稳健增长;满期养老补充，晚年安享</p>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag4" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<img src="/images/product/detail.png"/>
+						</div>
+					</div>
+					<div class="list">
+						<a name="firstAnchor5">
+							<h3>幸福富利人生两全保险（分红型）</h3>
+						</a>
+						<p>享受分红、额外惊喜、保费返还、安心保障、保单贷款、资金灵活、领取方式、灵活多样</p>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag5" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<img src="/images/product/detail.png"/>
+						</div>
+					</div>
+					<div class="list">
+						<a name="firstAnchor6">
+							<h3>幸福万佳欢盈两全保险（万能型，B款）</h3>
+						</a>
+						<p>
+							保证收益，资金安全万无一失；专家理财，超额收益轻松拥有；个人账户，日日计息红利连年；持续交费、奖励多多、缓期交费、保障不变、支取灵活，周到服务事事省心；多重保障，全力护航幸福人生；保障灵活、应需而变
+						</p>
+						<div class="col-xs-12 text-right button">
+							<img id="imgflag6" src="/images/product/xin-DBDCDC.png" onclick="changeImage(this)">
+							<img src="/images/product/detail.png"/>
+						</div>
+					</div>
+					<div class="list_footer pull-right"><p>点击查看更多>>></p></div>
+				</div>
+			</div>	
+			<br/>
+			<br/>
+		</div>
+		<br/>
+		<footer class="dial">
+			<a href="tel:1xxxxxxxxx" title="拨打电话">
+				<span class="glyphicon glyphicon-earphone"></span>
+				拨打咨询
+			</a>
+		</footer>
+	</main>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function changeImage(obj){
+			var imgsrc = document.getElementById(obj.id).src;
+			var aa = imgsrc.substring(imgsrc.lastIndexOf("/")+1,imgsrc.length);
+			var urlsrc = "xin-DBDCDC.png";
+			if(aa == urlsrc){
+				document.getElementById(obj.id).src = "/images/product/xin-D9534F.png";
+			}else{
+				document.getElementById(obj.id).src = "/images/product/xin-DBDCDC.png"; 
+			}
+		}
+
+	</script>
+</body>
+</html>

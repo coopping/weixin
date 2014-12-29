@@ -1,0 +1,76 @@
+.catalogbg {
+	
+	display: block;
+	
+	height: 100%;
+	
+	width: 100%;
+	
+	background: url(../images/border.png) no-repeat 0 0;
+	
+
+}
+
+
+
+.clbgmain {
+	
+	display: block;
+	
+	height: 100%;
+	
+	width: 100%;
+	
+	margin-left: 2px;
+	
+	height: 48px;
+	
+	margin-top: 10px;
+	
+	background: url(../images/fhzy-icon.png) no-repeat 0 0;
+	
+	background-size:88px 48px;
+	
+
+}
+
+
+
+.clbglist {
+	
+	display: block;
+	
+	height: 100%;
+	
+	width: 100%;
+	
+	margin-left: 2px;
+	
+	background: url(../images/fhlist-icon.png) no-repeat 0 0;
+	
+	background-size:88px 48px;
+	
+
+}
+
+
+
+.catalogmain:hover {
+	
+	background: url(../images/fhzy-icon-hover.png) no-repeat 0 0;
+	
+	background-size:88px 48px;
+	
+
+}
+
+
+
+.cataloglist:hover {
+	
+	background: url(../images/fhlist-icon-hover.png) no-repeat 0 0;
+	
+	background-size:88px 48px;
+	
+
+}
