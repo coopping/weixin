@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+			charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<title>我的业绩 --</title>
+	<!-- Bootstrap -->	
+	<link href="/css/front/bootstrap.min.css" rel="stylesheet">		
+	<link href="/css/front/comm.css" rel="stylesheet">
+	<link href="/css/insure.min.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	 <style>
+    .text-size {
+        font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+	<main>
+	<header class="titleBar">
+		<a href="/" title="返回"></a>
+		<h1>我的业绩</h1>
+	</header>
+<div class="content">
+	<div class="container" style="background:#FCE7D2;">
+		<div class="row" style="margin-top:2%">
+			<div class="col-lg-12 content" style="background:#FCE7D2;">
+	  		<font class="text-size" >
+	  			业绩年月
+	  		</font>
+	  	</div>
+  	</div>	
+    <div class="col-lg-12 content" style="background:#FCE7D2;margin-top:2% ;margin-bottom:2%;">
+      <div class="row">
+        <div class="col-xs-7">
+          <input class="form-control" placeholder=" 年 月 日" />
+        </div>
+        <div class="col-xs-4" align="right">
+          <span><img src="/images/pref/pref-07.png" width="70px;"></span>
+        </div>
+      </div>
+    </div>
+  </div> 
+<div class="container" style="margin-top:2%;">  
+  <div class="row">
+    <div class="col-xs-12">
+      <img src="/images/pref/pref-05.png" width="40px" /> 
+         财产险保单件数：
+         <font size="+2" color="#FC8716">56</font>件,
+         保费<font size="+2" color="#FC8716">100</font>万
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top:2% ;">  
+  <div class="row">
+    <div class="col-xs-12">
+      <img src="/images/pref/pref-06.png" width="40px" /> 
+         寿险保单件数：<font size="+2" color="#FC8716">156</font>件,
+         保费<font size="+2" color="#FC8716">1000</font>万
+    </div>
+  </div>
+</div>
+<div class="container" style="background:#FCE7D2;margin-top:2%;">
+    <div class="col-lg-12 content" style="background:#FCE7D2;margin-top:2% ;margin-bottom:2%;">
+      <div class="row">
+        <div class="col-xs-8">
+          <div id="container"></div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <br/>
+  <br/>
+	<br/>
+	<footer class="dial">
+		<a href="tel:1xxxxxxxxx" title="拨打电话">
+			<span class="glyphicon glyphicon-earphone"></span>
+			拨打咨询
+		</a>
+		</footer>
+	</main>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/js/highcharts.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function changeImage(obj){
+			var imgsrc = document.getElementById(obj.id).src;
+			var aa = imgsrc.substring(imgsrc.lastIndexOf("/")+1,imgsrc.length);
+			var urlsrc = "xin-DBDCDC.png";
+			if(aa == urlsrc){
+				document.getElementById(obj.id).src = "/images/product/xin-D9534F.png";
+			}else{
+				document.getElementById(obj.id).src = "/images/product/xin-DBDCDC.png"; 
+			}
+		}
+    $(function () {
+      $('#container').highcharts({
+          title: {
+              text: '公司业绩走势图',
+              x: -50
+          },
+          xAxis: {
+               categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+          },
+          yAxis: {
+              title: {
+                  text: '保费单位 (元)'
+              },
+              plotLines: [{
+                  value: 0,
+                  width: 1,
+                  color: '#808080'
+              }]
+          },
+          tooltip: {
+              valueSuffix: '元'
+          },
+          legend: {
+              layout: 'vertical',
+              align: 'right',
+              verticalAlign: 'middle',
+              borderWidth: 0
+          },
+          series: [{
+              name: '保费',
+              data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+          }]
+      });
+    });
+
+	</script>
+</body>
+</html>

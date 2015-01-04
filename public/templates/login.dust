@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+			charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<title>登录 --</title>
+	<!-- Bootstrap -->	
+	<link href="/css/front/bootstrap.min.css" rel="stylesheet">		
+	<link href="/css/front/comm.css" rel="stylesheet">
+	<link href="/css/insure.min.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+    .text-size {
+      font-size: 14px;
+      color:#FC8716;
+    }
+  </style>
+</head>
+<body>
+<main>
+{!style="background-image:url(/images/login/login-01.png);"!}
+{!style="background:#FC8716""!}
+	<div class="container" 
+      style="background-image:url(/images/login/login-01.png);">
+		<div class="row" style="margin-top:10%" align="center">
+  		<div>
+        <img class="img-responsive" src="/images/login/logo.png" 
+             width="80px" height="80px">
+    	</div>
+      <div style="margin-top:12%">
+        <font style="color:#fff;font-size:30px;"> Welcome </font>
+      </div>
+  	</div>
+
+    <div class="row" style="margin-top:10%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/login/login-04.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入你的用户名"/>
+      </div>
+      {!<img src="/images/card/card-02.png" width="96%"/>!}
+    </div>
+    <div class="row" style="margin-top:10%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/login/login-05.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入你的密码"/>
+      </div>
+    </div>
+  	<div class="row" style="margin:10% 5% 2% 5%" align="center">
+      <a href="/">
+        <div class="col-xs-12" style="background:#A2CB01;">
+          <font size="+2" color="#fff">登录</font>
+        </div>
+      </a>
+    </div>
+    <div class="row" style="margin:10% 5% 2% 5%" align="center">
+      <a href="/sign">
+        <div class="col-xs-12" 
+            style="background:#fff;">
+          <font size="+2">注册</font>
+        </div>
+      </a>
+    </div>
+    <div class="row" style="margin-top:20%" align="center">
+    </div>
+  </div>
+</main>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js">
+  </script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function changeImage(obj){
+			var imgsrc = document.getElementById(obj.id).src;
+			var aa = imgsrc.substring(imgsrc.lastIndexOf("/")+1,imgsrc.length);
+			var urlsrc = "xin-DBDCDC.png";
+			if(aa == urlsrc){
+				document.getElementById(obj.id).src = "/images/product/xin-D9534F.png";
+			}else{
+				document.getElementById(obj.id).src = "/images/product/xin-DBDCDC.png"; 
+			}
+		}
+	</script>
+</body>
+</html>

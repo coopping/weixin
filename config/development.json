@@ -1,25 +1,28 @@
 {
-    
+    "loggerLevel": "debug",
     "express": {
         "view cache": false,
         "view engine": "dust",
         "views": "path:./public/templates"
+    },    
+    "databaseConfig": {
+        "host": "121.40.82.99",
+        "database": "WEBDB"
     },
-
+    
     "view engines": {
         "dust": {
             "module": "engine-munger",
             "renderer": {
                 "method": "dust",
-                "arguments": [
-                    { "cache": false },
-                    {
-                        "views": "config:express.views",
-                        "view engine": "config:express.view engine",
-                        "specialization": "config:specialization",
-                        "i18n": "config:i18n"
-                    }
-                ]
+                "arguments": [{
+                    "cache": false
+                }, {
+                    "views": "config:express.views",
+                    "view engine": "config:express.view engine",
+                    "specialization": "config:specialization",
+                    "i18n": "config:i18n"
+                }]
             }
         }
     },
@@ -33,8 +36,7 @@
                 "name": "kraken-devtools",
                 "arguments": [
                     "path:./public",
-                    "path:./.build",
-                    {   
+                    "path:./.build", {
                         "template": {
                             "module": "kraken-devtools/plugins/dustjs",
                             "files": "/templates/**/*.js",

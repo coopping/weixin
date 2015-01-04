@@ -27,7 +27,7 @@
 <body>
 	<main>
 	<header class="titleBar">
-		<a href="#" title="返回"></a>
+		<a href="/" title="返回"></a>
 		<h1>我的续保</h1>
 	</header>
 <div class="content">
@@ -75,7 +75,7 @@
 	  		</span>
 	  	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -83,7 +83,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -94,7 +94,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -102,7 +102,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   </div>	
 </div>
@@ -134,7 +134,7 @@
 	  		</span>
 	  	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -142,7 +142,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -153,7 +153,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%"/>
   	</div>
   	<div class="col-lg-12 content" style="background:#FCE7D2;">
   		<span class="text-size">
@@ -161,7 +161,7 @@
   		</span>
   	</div>
   	<div class="col-lg-12" style="background:#FCE7D2;">
-  		<img src="/images/renew/icon-03.png"/>
+  		<img src="/images/renew/icon-04.png" width="96%" />
   	</div>
   </div>	
 </div>
@@ -170,6 +170,7 @@
 </div>	
 	<br/>
 	<br/>
+</div>
 </div>
 
 		<br/>

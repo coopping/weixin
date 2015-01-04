@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0"
+			charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<title>注册 --</title>
+	<!-- Bootstrap -->	
+	<link href="/css/front/bootstrap.min.css" rel="stylesheet">		
+	<link href="/css/front/comm.css" rel="stylesheet">
+	<link href="/css/insure.min.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	 <style>
+    .text-size {
+        font-size: 14px;
+        color:#FC8716;
+    }
+    </style>
+</head>
+<body>
+	<main>
+	<header class="titleBar">
+		<a href="/" title="返回"></a>
+		<h1>注册</h1>
+	</header>
+<div class="content">
+  <div class="container">
+		<div class="row" style="margin-top:2%" align="center">
+			<div>
+         <h4><strong>输入一下信息即可完成注册</strong></h4>
+	  	</div>
+      <img src="/images/card/card-02.png" width="96%"/>
+  	</div>
+
+    <div class="row" style="margin-top:2%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/sign/sign-01.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入您的用户名"/>
+      </div>
+      <img src="/images/card/card-02.png" width="96%"/>
+    </div>
+
+    <div class="row" style="margin-top:2%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/sign/sign-02.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入8-10密码"/>
+      </div>
+      <img src="/images/card/card-02.png" width="96%"/>
+    </div>
+
+    <div class="row" style="margin-top:2%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/sign/sign-03.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入您的真实有效身份证号"/>
+      </div>
+      <img src="/images/card/card-02.png" width="96%"/>
+    </div>
+
+    <div class="row" style="margin-top:2%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/sign/sign-04.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-6">
+        <input class="form-control" placeholder="请输入您的手机号码"/>
+      </div>
+      <div class="col-xs-2">
+      <button type="button" class="btn" style="color: #fff;background-color: #FC8716;">   验证
+      </button>
+      </div>
+      <img src="/images/card/card-02.png" width="96%"/>
+    </div>
+
+    <div class="row" style="margin-top:2%" align="center">
+      <div class="col-xs-3">
+        <img src="/images/sign/sign-05.png" width="23px" height="23px" />
+      </div>
+      <div class="col-xs-7">
+        <input class="form-control" placeholder="请输入您获取的验证码"/>
+      </div>
+      <img src="/images/card/card-02.png" width="96%" />
+    </div>
+
+    <div class="row" style="margin:10% 1% 10% 1%" align="center">
+      <div class="col-xs-12" 
+        style="background-image:url(/images/sign/sign-06.png);">
+        <font size="+3"><a href="/sign">注册</a></font>
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
+<br/>
+</main>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function changeImage(obj){
+			var imgsrc = document.getElementById(obj.id).src;
+			var aa = imgsrc.substring(imgsrc.lastIndexOf("/")+1,imgsrc.length);
+			var urlsrc = "xin-DBDCDC.png";
+			if(aa == urlsrc){
+				document.getElementById(obj.id).src = "/images/product/xin-D9534F.png";
+			}else{
+				document.getElementById(obj.id).src = "/images/product/xin-DBDCDC.png"; 
+			}
+		}
+
+	</script>
+</body>
+</html>

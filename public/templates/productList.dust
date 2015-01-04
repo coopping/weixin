@@ -35,7 +35,7 @@
 <body>
 	<main>
 		<header class="titleBar">
-			<a href="#" title="返回"></a>
+			<a href="/" title="返回"></a>
 			<h1>产品展示</h1>
 		</header>
 		<div class="container">

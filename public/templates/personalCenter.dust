@@ -29,7 +29,7 @@
   <body>
     <main>
       <header class="titleBar">
-        <a href="#" title="返回"></a>
+        <a href="/login" title="返回"></a>
         <h1>个人中心</h1>
       </header>
       <section class="personInfo">
@@ -45,13 +45,13 @@
       </section>
       <ul class="options">
           <li>
-            <a href="#" title="我的名片">我的名片</a>
+            <a href="/card" title="我的名片">我的名片</a>
           </li>
           <li>
-            <a href="#" title="我的业绩">我的业绩</a>
+            <a href="/pref" title="我的业绩">我的业绩</a>
           </li>
           <li>
-            <a href="/renew" title="我的续保">我的续保</a>
+            <a href="/notice" title="我的续保">我的续保</a>
           </li>
           <li>
             <a href="/customer" title="我的客户">我的客户</a>
@@ -60,12 +60,9 @@
             <a href="/product" title="我的产品">我的产品</a>
           </li>
           <li>
-            <a href="#" title="我的资讯">我的资讯</a>
+            <a href="/cons" title="我的资讯">我的资讯</a>
           </li>
       </ul>
-      <footer class="dial">
-        <a href="tel:1xxxxxxxxx" title="拨打电话"><span class="glyphicon glyphicon-earphone"></span>点击拨打</a>
-      </footer>
     </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

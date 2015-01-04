@@ -22,7 +22,7 @@
 <body class="ui-mobile-viewport ui-overlay-c">
     <main>
         <header class="titleBar">
-            <a href="#" title="返回"></a>
+            <a href="/product" title="返回"></a>
             <h1>产品详情</h1>
         </header>
         <div class="container">

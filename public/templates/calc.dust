@@ -92,7 +92,7 @@
                                     姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：
                                 </td>
                                 <td class="col-xs-7 rangeslider" colspan="2">
-                                    <input class="ui-input-text ui-body-c" name="f_name" id="f_name" pattern="[\u0391-\uFFE5]{2,3}" 
+                                    <input class="form-control" name="f_name" id="f_name" pattern="[\u0391-\uFFE5]{2,3}" 
                                             type="name">
                                 </td>
                             </tr>
